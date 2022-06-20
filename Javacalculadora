@@ -1,0 +1,17 @@
+// Botao C - Clean
+document.querySelector(#clear) .addEventListener("click", ()=>{
+    document.querySelector("#display").value =" ";
+    // No #display (ou visor) apagando o numero informado
+
+})
+
+// Botao -> backspace
+
+const backSpace = () ={
+    const backSpace = document.querySelector("#display").value.slice(0, -1);
+
+    //Apagando um numero da direita pra esquerda no #display
+
+    document.querySelector("#diplay").value = num;
+    // igualando e atualizando NUM no #display (visor)
+}
